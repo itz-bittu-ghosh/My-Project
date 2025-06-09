@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.faceclass {
+  /* border: 2px solid red; */
+  /* padding-left: 90px; */
+  margin: 50px;
+  width: 380px;
+  height: 140px;
+}
+
+.pclass {
+  color: blue;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.helpclass {
+  font-size: 24px;
+}
+
+.container {
+  height: 100vh;
+  /* Set the height to the viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  background-color: rgb(212, 191, 232);
+  /* background-image: url(pics/tree.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+
+  border: none;
+  padding: 16px;
+  height: 256px;
+  width: 370px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 3px 3px rgb(119, 111, 102);
+}
+
+input {
+  height: 40px;
+  width: 350px;
+  line-height: 5px;
+  /* text-align: left; */
+  font-weight: bolder;
+  border-radius: 8px;
+  border-color: rgb(235, 224, 213);
+}
+
+#lohinclass {
+  background-color: rgb(64, 64, 230);
+  border: none;
+  width: 350px;
+  color: beige;
+  font-weight: bold;
+  height: 39px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.forgetclass {
+  text-align: center;
+  color: rgb(74, 74, 245);
+}
+
+#newclass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  border-radius: 5px;
+  border: solid green;
+  color: wheat;
+  height: 35px;
+  width: 150px;
+  padding: 10px;
+  font: bolder;
+
+  margin-left: 115px;
+}
+
+.lastclass {
+  /* border: 2px solid red; */
+  /* font-size: 14px; */
+  padding: 0;
+  width: 380px;
+}
+
+p {
+  display: inline-block;
+}

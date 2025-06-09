@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Linefont:wght@4..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=calculate"
+    />
+
+    <title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+   
+  </head>
+
+  <body>
+    <main class="container">
+      <section class="sec_Logo">
+        <div class="div_Logo">
+          <span class="material-symbols-outlined" id="cal_Logo">
+            calculate
+          </span>
+
+          <p class="logo_Name">Calculator</p>
+        </div>
+      </section>
+
+      <section class="sec_1st">
+        <div class="disPlay"></div>
+      </section>
+
+      <section class="sec_2nd">
+        <div class="div_sec_2nd">
+          <button onclick="appendNumber('7')">7</button>
+          <button onclick="appendNumber('8')">8</button>
+          <button onclick="appendNumber('9')">9</button>
+          <button
+            style="background-color: rgb(0, 0, 0); color: white"
+            onclick="appendNumber('+')"
+          >
+            +
+          </button>
+          <button onclick="appendNumber('4')">4</button>
+          <button onclick="appendNumber('5')">5</button>
+          <button onclick="appendNumber('6')">6</button>
+          <button
+            style="background-color: rgb(0, 0, 0); color: white"
+            onclick="appendNumber('-')"
+          >
+            -
+          </button>
+          <button onclick="appendNumber('1')">1</button>
+          <button onclick="appendNumber('2')">2</button>
+          <button onclick="appendNumber('3')">3</button>
+          <button
+            style="background-color: rgb(0, 0, 0); color: white"
+            onclick="appendNumber('*')"
+          >
+            *
+          </button>
+          <button
+            style="background-color: red; color: white"
+            onclick="clearDisplay()"
+          >
+            C
+          </button>
+          <button onclick="appendNumber('0')">0</button>
+          <button
+            style="background-color: rgb(0, 0, 0); color: white"
+            onclick="eValue('=')"
+          >
+            =
+          </button>
+          <button
+            style="background-color: rgb(0, 0, 0); color: white"
+            onclick="appendNumber('/')"
+          >
+            /
+          </button>
+        </div>
+      </section>
+    </main>
+
+   <script src="script.js"></script>
+  </body>
+</html>

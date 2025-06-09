@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+}
+
+main {
+  border: 2px solid;
+  height: 450px;
+  width: 320px;
+  background-color: rgb(164, 162, 162);
+  padding: 10px;
+  border-radius: 20px;
+  border: 3px solid rgb(248, 61, 61);
+  box-shadow: 6px 7px 19px 1px rgb(248, 165, 165);
+}
+
+.sec_1st {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disPlay {
+  height: 85%;
+  border: 1px solid rgb(242, 30, 30);
+  width: 95%;
+  background-color: rgb(247, 192, 192);
+  position: relative;
+  top: 2px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 50px;
+  padding: 5px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.sec_2nd {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_sec_2nd>button {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(242, 237, 237);
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 25px;
+  border: none;
+  margin: 3px;
+  box-shadow: 1px 1px 3px 1px rgb(255, 74, 74);
+}
+
+.div_sec_2nd>button:active {
+  transform: translateY(2px);
+  background-color: rgb(252, 194, 194);
+}
+
+.div_sec_2nd {
+  position: relative;
+  top: 5px;
+}
+
+.sec_Logo {
+  height: 5%;
+}
+
+.div_Logo {
+  display: flex;
+  position: relative;
+  left: 8px;
+}
+
+.logo_Name {
+  position: relative;
+  font-family: "Imperial Script", sans-serif;
+  right: -8px;
+  font-weight: bolder;
+  font-size: 20px;
+  bottom: 4px;
+  color: rgb(113, 0, 0);
+}
+
+#cal_Logo {
+  color: rgb(113, 0, 0);
+  position: absolute;
+  left: 73px;
+  bottom: 5px;
+}

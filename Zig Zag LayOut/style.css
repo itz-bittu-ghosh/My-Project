@@ -1,0 +1,22 @@
+    body {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+    }
+
+    .container {
+      column-count:11;
+      /* max-width: 800rem; */
+
+    }
+
+    .img_box img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      border: 1px solid white;
+      box-shadow: 2px 4px 6px 0px white;
+      z-index: 0;
+      position: relative;
+}

@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: aquamarine;
+  display: grid;
+  align-items: center;
+  position: relative;
+  gap: 15px;
+}
+
+#demo {
+  /* border: 2px dotted; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 200px;
+  width: auto;
+  position: relative;
+  top: 30vh;
+  font-size: 250px;
+}
+
+#refreshButton {
+  padding: 18px;
+  font-size: 18px;
+  background: lightblue;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  top: 30vh;
+  display: none;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 485px) {
+  #demo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 20px;
+    width: auto;
+    position: relative;
+    top: 30vh;
+    font-size: 80px;
+  }
+}

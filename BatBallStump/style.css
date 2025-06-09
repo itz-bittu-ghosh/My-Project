@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  border: 2px solid;
+  height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  gap: 50px;
+}
+
+img {
+  height: 180px;
+}
+
+.div {
+  display: flex;
+  gap: 30px;
+}
+
+.score {
+  display: grid;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.reset {
+  background-color: red;
+  cursor: pointer;
+  height: 30px;
+  border: none;
+  border-radius: 35px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  height: 40px;
+}

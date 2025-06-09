@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <title>Bg-Seter & Color-Picker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="color_ ">
+      <input type="text" placeholder="Enter the color code" id="myInputCode" class="inputColor">
+      
+      <button onclick="copyTextCodeInput()">Add</button>
+    </div>
+     
+    <div class="color_">
+
+      <label for="myInput" class="label_class"> Pick Color =></label>
+      <input type="color" value="#e20808" id="myInput" />
+
+    </div>
+
+    <div class="btn">
+      <button onclick="myFunction()">Set bg-Color</button>
+      <button onclick="myColor()">Copy the Color</button>
+    </div>
+  </div>
+
+   <p class="mag" style="display: none;">Color Copied </p>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

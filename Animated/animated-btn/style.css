@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+div {
+  height: 86px;
+  width: 186px;
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  border: none;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #008cff, #e100ff);
+}
+
+.btn {
+  position: absolute;
+  height: 80px;
+  width: 180px;
+  border-radius: 1000px;
+  cursor: pointer;
+  font-size: 35px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.btn:hover {
+  /* height: 86px;
+      width: 186px; */
+  background: linear-gradient(to bottom right, #008cff, #e100ff);
+  box-shadow: 40px 0 100px #e100ff, -40px 0 100px #008cff;
+}

@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* border: 2px solid; */
+  height: 100vh;
+  /* background-color: rgb(221, 246, 238); */
+}
+
+button {
+  cursor: pointer;
+  height: 70px;
+  width: 250px;
+  font-size: 30px;
+  border: none;
+  border-radius: 50px;
+  background-color: black;
+  color: rgb(241, 241, 241);
+}
+
+@media screen and (max-width: 485px) {
+
+
+  #btn {
+    height: 150px;
+    width: 350px;
+    border-radius: 80px;
+    font-size: 40px;
+  }
+}
